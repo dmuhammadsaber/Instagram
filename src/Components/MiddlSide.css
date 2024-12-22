@@ -1,0 +1,137 @@
+.middleSide {
+  width: 100%;
+  padding: 30px 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.storyBlock {
+  width: 80%;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+}
+
+.storyBlock::-webkit-scrollbar {
+  display: none;
+}
+
+.storyParticular {
+  width: 66px;
+  height: 66px;
+}
+
+.imageStory {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  flex-direction: column;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statusImg {
+  width: 100%;
+  height: 56px;
+  border-radius: 100%;
+  padding: 2px;
+  border: 2px solid rgb(99, 0, 99);
+}
+
+/* --- --- --- --- ___ --- --- --- --- */
+.postSection {
+  width: 60%;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.post {
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #999999;
+  margin-top: 10px;
+}
+
+.postInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0;
+}
+
+.postInfoImg {
+  width: 40px;
+  border-radius: 100%;
+}
+
+.postInfoUser {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.iconBlock {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftIcon {
+  display: flex;
+  gap: 15px;
+}
+
+.likeImg {
+  width: 20px;
+  border-radius: 100%;
+  position: absolute;
+}
+
+.imagesLike {
+  position: relative;
+}
+
+.likeImg2 {
+  width: 20px;
+  border-radius: 100%;
+  position: absolute;
+  left: 28%;
+}
+
+.nolikes {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 25px;
+}
+
+.postAbout {
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+}
+
+.postAboutName {
+  font-size: 14px;
+  font-weight: 500;
+
+}
+
+.infoComment {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.noOfComment {
+  color: #999999;
+  margin-top: 5px;
+  font-size: 14px;
+}

@@ -1,0 +1,23 @@
+.App {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.leftSection {
+  width: 16%;
+}
+
+.middSection {
+  height: auto;
+  width: 55%;
+  flex-direction: column;
+
+}
+
+.rightSide {
+  margin: 20px;
+  height: auto;
+  width: 29%;
+}

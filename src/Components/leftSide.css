@@ -1,0 +1,56 @@
+.leftSidePart {
+  position: fixed;
+  height: auto;
+  width: 16%;
+  border-right: 1px solid #e1e1e1;
+}
+
+.logoPart {
+  width: 100px;
+  height: 80px;
+  margin-left: 25px;
+}
+
+.logoImg {
+  width: 107px;
+  margin-top: 35px;
+  margin-left: 0;
+}
+
+.navLinkPart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  padding-right: 14px;
+
+}
+
+.navLink {
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  &:hover {
+    background-color: #ececec;
+  }
+}
+.icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+}
+
+.navName {
+  font-weight: 400;
+  margin-left: 18px;
+}
+
+.ProfileImg {
+  width: 30px;
+  border-radius: 120%;
+  margin-left: 15px;
+}
